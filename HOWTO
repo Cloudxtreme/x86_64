@@ -1,4 +1,4 @@
-Use add_sourceapp.sh from the Open GApps project root, when updating files in app and/or priv-app.
+Use add_sourceapp.sh from the Open GApps project root, when updating files in app, priv-app, lib or lib64.
 The other directories are to be maintained manually.
 
 ---
@@ -24,6 +24,9 @@ Import the following apks from the Nexus image using the add_sourceapp.sh:
 /priv-app/GooglePartnerSetup/GooglePartnerSetup.apk
 /priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
 /priv-app/SetupWizard/SetupWizard.apk
+/lib/libfacelock_jni.so
+/lib/libfilterpack_facedetect.so
+/lib/libjni_latinimegoogle.so
 
 ---
 Copy the following files and folders from the Nexus system image to their corresponding folder.
@@ -38,8 +41,5 @@ Note that only the lib*.so files are architecture dependent, the other files can
 /framework/com.google.android.maps.jar
 /framework/com.google.android.media.effects.jar
 /framework/com.google.widevine.software.drm.jar
-/lib/libfacelock_jni.so
-/lib/libfilterpack_facedetect.so
-/lib/libjni_latinimegoogle.so
 /usr/srec
 /vendor/pittpatt
