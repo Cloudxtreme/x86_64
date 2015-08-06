@@ -24,9 +24,10 @@ Import the following apks from the Nexus image using the add_sourceapp.sh:
 /priv-app/GooglePartnerSetup/GooglePartnerSetup.apk
 /priv-app/GoogleServicesFramework/GoogleServicesFramework.apk
 /priv-app/SetupWizard/SetupWizard.apk
-/lib/libfacelock_jni.so
-/lib/libfilterpack_facedetect.so
-/lib/libjni_latinimegoogle.so
+/priv-app/TagGoogle/TagGoogle.apk
+/lib64/libfacelock_jni.so
+/lib64/libfilterpack_facedetect.so
+/lib64/libjni_latinimegoogle.so
 
 ---
 Copy the following files and folders from the Nexus system image to their corresponding folder.
